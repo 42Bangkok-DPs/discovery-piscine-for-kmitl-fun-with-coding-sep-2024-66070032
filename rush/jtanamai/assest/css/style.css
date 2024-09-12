@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+
+body {
+    font-family: 'Mali', cursive;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    -o-user-select: none;
+    user-select: none;
+    animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s; /* Firefox */
+    -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+    -o-animation: fadein 1.5s; /* Opera */
+}
+
+.IMGCertificate {
+    transition: .5s ease;
+}
+
+.IMGCertificate:hover {
+    z-index: 1;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.name-tag {
+    font-weight: 900;
+}
+
+.profile-img {
+    border-radius: 0.5rem;
+}
+
+.copyright-text {
+    font-size: 15px;
+}
+
+.carousel-item img {
+    border-radius: 25px;
+}
+
+.info-img {
+    text-align: center;
+}
+
+.header-nav {
+    color: white;
+    background-color: #0b51b9;
+}
+
+.text-nav {
+    height: 50px;
+    line-height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_right {
+    gap: 1rem;
+}
+
+.cert_link {
+    color: white;
+    text-decoration: none;
+}
+
+.cert_link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.contact_link {
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.contact_link:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
